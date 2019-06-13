@@ -1,0 +1,7 @@
+# Automatically generated build file. Do not edit.
+COMPONENT_INCLUDES += $(PROJECT_PATH)/portMQTT $(PROJECT_PATH)/portMQTT $(PROJECT_PATH)/portMQTT/MQTTPacket $(PROJECT_PATH)/portMQTT/MQTTCommon
+COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/portMQTT -lportMQTT
+COMPONENT_LINKER_DEPS += 
+COMPONENT_SUBMODULES += 
+COMPONENT_LIBRARIES += portMQTT
+component-portMQTT-build: 

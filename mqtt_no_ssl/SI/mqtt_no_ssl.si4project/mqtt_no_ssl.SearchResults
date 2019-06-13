@@ -1,0 +1,3 @@
+---- deliverMessage Matches (2 in 1 files) ----
+MQTTClient.c (D:\msys32\home\40806\esp\example\mqtt_no_ssl\portMQTT) line 180 : int deliverMessage(MQTTClient* c, MQTTString* topicName, MQTTMessage* message)
+cycle in MQTTClient.c (D:\msys32\home\40806\esp\example\mqtt_no_ssl\portMQTT) :             deliverMessage(c, &topicName, &msg);
